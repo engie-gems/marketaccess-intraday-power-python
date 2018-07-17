@@ -1,0 +1,21 @@
+# This file exists so you can easily regenerate your project.
+#
+# Simply run:
+#
+#    cookiecutter --overwrite-if-exists --config-file=project-path/.cookiecutterrc http://url/to/original/template
+
+default_context:
+
+    _template:                 'https://github.com/engie-gems/python-module-cookiecutter/archive/local-customisation.zip'
+    add_git_remote_after_scapfolding: 'y'
+    docker_build:              'y'
+    email:                     'sebastien.dementen@engie.com'
+    full_name:                 'Sebastien de Menten'
+    github_repository_name:    'marketaccess-intraday-power-python'
+    github_username:           'engie-gems'
+    is_application:            'n'
+    project_name:              'Python API Wrapper for the Market Access Intraday Power'
+    project_short_description: 'market access intraday power python wrapper'
+    project_slug:              'marketaccess-intraday-power-python'
+    pypi_username:             'sebastiendementen'
+    use_pypi_deployment_with_travis: 'y'

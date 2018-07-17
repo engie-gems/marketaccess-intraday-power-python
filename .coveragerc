@@ -1,0 +1,8 @@
+[run]
+branch = True
+source = marketaccess-intraday-power-python
+
+[report]
+ignore_errors = True
+omit =
+    marketaccess-intraday-power-python/tests/*
